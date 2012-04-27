@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TimeKeeperActivity!</string>
+    <string name="app_name">TimeKeeper</string>
+    <string name="start10">10 min</string>
+    <string name="pause">pause</string>
+    <string name="play">play</string>
+    <string name="reset">reset</string>
+    <string name="start15">15 min</string>
+    <string name="finished">Fini !</string>
+    <string name="alert_finished_text">Fini !</string>
+    <string name="alert_finished_text_button">Ok</string>
+    
+
+    
+<!--     Programme -->
+<!-- Préférences -->
+	<string name="preferences">Préférences</string>
+	
+	<string name="pref_keep_screen_on_title">Ecran allumé</string>
+	<string name="pref_keep_screen_on_summary">Garde l\'écran allumer</string>
+	
+    <string name="pref_choose_theme_title">Thème</string>
+    <string name="pref_choose_theme_summary">/!\\Redemarre l\'application !</string>
+    <string name="theme_name_black_diamonds">Diamants noirs</string>
+    <string name="theme_name_blue_dust">Poussière bleue</string>
+    <string name="theme_name_white_arches">Arches blanches</string>
+    <string name="theme_name_white_diagonal">Diagonales blanches</string>
+    
+    <string name="notifications">Notifications</string>
+
+	<string name="pref_vibrator_title">Vibreur</string>
+	<string name="pref_vibrator_summary">Vibre lorsque le temps est écoulé</string>
+	
+	<string name="pref_ringtone_activated_title">Sonnerie</string>
+	<string name="pref_ringtone_activated_summary">Active la sonnerie</string>
+	
+	<string name="pref_ringtone_title">Sonnerie de notification</string>
+	<string name="pref_ringtone_summary">Choisissez la sonnerie pour les notifications</string>
+	
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/preferences" >
+
+    <CheckBoxPreference
+        android:key="keep_screen_on"
+        android:summary="@string/pref_keep_screen_on_summary"
+        android:title="@string/pref_keep_screen_on_title" 
+        android:defaultValue="true">
+    </CheckBoxPreference>
+
+    <ListPreference
+        android:key="theme"
+        android:summary="@string/pref_choose_theme_summary"
+        android:title="@string/pref_choose_theme_title"
+        android:defaultValue="1"
+        android:entries="@array/themes"
+        android:entryValues="@array/themes_values"
+    />
+
+
+	<PreferenceCategory android:title="@string/notifications">
+	    
+	    <CheckBoxPreference
+        android:key="vibrator"
+        android:summary="@string/pref_vibrator_summary"
+        android:title="@string/pref_vibrator_title" 
+        android:defaultValue="true">
+   	 </CheckBoxPreference>
+	
+	    <CheckBoxPreference
+        android:key="ringtone_activated"
+        android:summary="@string/pref_ringtone_activated_summary"
+        android:title="@string/pref_ringtone_title" 
+        android:defaultValue="false">
+   	 </CheckBoxPreference>
+   	 
+		<RingtonePreference
+			android:key="ringtone"
+        android:summary="@string/pref_ringtone_summary"
+        android:title="@string/pref_ringtone_title" 
+        android:dependency="ringtone_activated">
+		</RingtonePreference>
+		
+	</PreferenceCategory>
+
+</PreferenceScreen>

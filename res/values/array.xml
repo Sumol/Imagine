@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+    <string-array name="themes">
+        <item>@string/theme_name_black_diamonds</item>
+        <item>@string/theme_name_blue_dust</item>
+        <item>@string/theme_name_white_arches</item>
+        <item>@string/theme_name_white_diagonal</item>
+    </string-array>
+    
+    <string-array name="themes_values">
+        <item>theme_black_diamonds</item>
+        <item>theme_blue_dust</item>
+        <item>theme_white_arches</item>
+        <item>theme_white_diagonal</item>
+    </string-array>
+
+    
+</resources>

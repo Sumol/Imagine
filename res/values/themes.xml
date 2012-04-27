@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="theme_white_arches" parent="android:Theme.NoTitleBar">
+        <item name="android:windowBackground">@drawable/app_background_white_arches</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="theme_black_diamonds" parent="android:Theme.NoTitleBar">
+        <item name="android:windowBackground">@drawable/app_background_black_diamonds</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="theme_blue_dust" parent="android:Theme.NoTitleBar">
+        <item name="android:windowBackground">@drawable/app_background_blue_dust</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="theme_white_diagonal" parent="android:Theme.NoTitleBar">
+        <item name="android:windowBackground">@drawable/app_background_white_diagonal</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alert_text_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:textSize="80dp"
+    android:textColor="#FFFFFF"
+    android:text="@string/alert_finished_text" >
+    
+
+</TextView>
